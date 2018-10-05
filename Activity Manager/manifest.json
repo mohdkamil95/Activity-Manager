@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "activity manager",
+  "version": "1.0",
+
+  "description": "Enable users to create an activity manager where they can list down their activity. See https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Examples#quicknote",
+  "icons": {
+    "48": "icons/index.png"
+  },
+
+  "permissions": ["storage"],
+
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/index.png"
+    },
+    "default_title": "Activity Manager ",
+    "default_popup": "popup/activitymanager.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "quicknote-example@mozilla.org"
+    }
+  }
+}
